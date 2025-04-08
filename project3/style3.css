@@ -1,0 +1,68 @@
+/* Reset default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Navigation bar */
+  nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1rem;
+    background: #333;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+  
+  nav a:hover {
+    background: #555;
+  }
+  
+  /* Center content */
+  .center {
+    text-align: center;
+    background-color: #2d2d2d;
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Banner text */
+  #banner span {
+    font-size: 1.5rem;
+    color: #cccccc;
+  }
+  
+  /* Clock styling */
+  #clock {
+    margin-top: 20px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #00ffcc;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+  }
+.button{
+  cursor: pointer;
+}  
